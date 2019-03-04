@@ -9,7 +9,7 @@
 
  const useComponent = <OneComponent name="user"/>
 ```
-组件的Props的存在给与React项目的构建给予了极大的灵活性，但是值得注意React官方提倡Props的只读性，修改不直接在Props上进行。
+组件的Props的存在给与React项目的构建给予了极大的灵活性，但是值得注意React官方提倡Props的只读性，修改不直接在Props上进行,子组件向父组件通信一般通过调用父组件Props传入的方法去修改父组件的state来保证一致性。
 
 
 对比Props,State是一个组件的局部状态，类似于一个内部传值
